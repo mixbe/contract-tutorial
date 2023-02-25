@@ -53,3 +53,6 @@ yarn hardhat test test/Token_v2.js test/xxxxx
 * token
     * [A Concise Hardhat Tutorial: Part 2 - ERC20 Token](https://dev.to/yakult/a-concise-hardhat-tutorial-part-2-writing-erc20-2jpm)
     * [A Concise Hardhat Tutorial: Part 3 - ERC721 NFT](https://dev.to/yakult/a-concise-hardhat-tutorial-part-2-writing-erc721-nft-5gm6)
+* upgradeable smart contract
+  * [write upgradeable smart contract (proxy) using OpenZeppelin](https://dev.to/yakult/tutorial-write-upgradeable-smart-contract-proxy-contract-with-openzeppelin-1916)
+* 
