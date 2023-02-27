@@ -42,6 +42,13 @@ yarn hardhat run scripts/1.deploy_box.ts --network ganache
 yarn hardhat test test/Token_v2.js test/xxxxx
 ```
 
+## Test
+```shell
+
+yarn hardhat  test ./test/xxxxx.test.ts --network hardhat
+
+```
+
 # reference
 
 1. [hardhat tutorial](https://hardhat.org/tutorial)
@@ -50,9 +57,11 @@ yarn hardhat test test/Token_v2.js test/xxxxx
 
 # blog
 
-* token
+* 1. token
     * [A Concise Hardhat Tutorial: Part 2 - ERC20 Token](https://dev.to/yakult/a-concise-hardhat-tutorial-part-2-writing-erc20-2jpm)
     * [A Concise Hardhat Tutorial: Part 3 - ERC721 NFT](https://dev.to/yakult/a-concise-hardhat-tutorial-part-2-writing-erc721-nft-5gm6)
-* upgradeable smart contract
+* 2. upgradeable smart contract
   * [write upgradeable smart contract (proxy) using OpenZeppelin](https://dev.to/yakult/tutorial-write-upgradeable-smart-contract-proxy-contract-with-openzeppelin-1916)
-* 
+
+* 3. [OpenZeppelin /workshops](https://github.com/OpenZeppelin/workshops)
+* 4. [defi by example](https://www.youtube.com/watch?v=qB2Ulx201wY&list=PLO5VPQH6OWdX-Rh7RonjZhOd9pb9zOnHW)
