@@ -56,12 +56,16 @@ yarn hardhat  test ./test/xxxxx.test.ts --network hardhat
 3. [Writing Upgradeable Contracts](https://docs.openzeppelin.com/upgrades-plugins/1.x/writing-upgradeable)
 
 # blog
-
+## contract
 * 1. token
-    * [A Concise Hardhat Tutorial: Part 2 - ERC20 Token](https://dev.to/yakult/a-concise-hardhat-tutorial-part-2-writing-erc20-2jpm)
-    * [A Concise Hardhat Tutorial: Part 3 - ERC721 NFT](https://dev.to/yakult/a-concise-hardhat-tutorial-part-2-writing-erc721-nft-5gm6)
+  * [A Concise Hardhat Tutorial: Part 2 - ERC20 Token](https://dev.to/yakult/a-concise-hardhat-tutorial-part-2-writing-erc20-2jpm)
+  * [A Concise Hardhat Tutorial: Part 3 - ERC721 NFT](https://dev.to/yakult/a-concise-hardhat-tutorial-part-2-writing-erc721-nft-5gm6)
 * 2. upgradeable smart contract
   * [write upgradeable smart contract (proxy) using OpenZeppelin](https://dev.to/yakult/tutorial-write-upgradeable-smart-contract-proxy-contract-with-openzeppelin-1916)
-
 * 3. [OpenZeppelin /workshops](https://github.com/OpenZeppelin/workshops)
-* 4. [defi by example](https://www.youtube.com/watch?v=qB2Ulx201wY&list=PLO5VPQH6OWdX-Rh7RonjZhOd9pb9zOnHW)
+
+
+## defi
+1. [defi by example](https://www.youtube.com/watch?v=qB2Ulx201wY&list=PLO5VPQH6OWdX-Rh7RonjZhOd9pb9zOnHW)
+2. [Github of defi by example](https://github.com/stakewithus/defi-by-example)
+3. [Public Bug Report: Uniswap's SwapRouter doesn't refund unspent ETH in partial swaps](https://jeiwan.net/posts/public-bug-report-uniswap-swaprouter/)
