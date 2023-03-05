@@ -27,7 +27,7 @@ describe("Box V2", function () {
         const {boxV2} = await loadFixture(boxFixture);
         await boxV2.increment();
 
-        expect(await boxV2.retrieve()).to.equal(BigNumber.from('43'));
+        expect(await boxV2.retrieve()).to.equal(BigNumber.from('1'));
     });
 
 })

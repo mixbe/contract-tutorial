@@ -16,7 +16,7 @@ describe("Test UniSwap", function () {
 
         const [owner] = await ethers.getSigners();
 
-        const TestUniSwap = await ethers.getContractFactory("TestUniSwap");
+        const TestUniSwap = await ethers.getContractFactory("TestUniswap");
         let testUniswap = await TestUniSwap.deploy();
         await testUniswap.deployed();
 
