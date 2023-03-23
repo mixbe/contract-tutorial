@@ -72,6 +72,10 @@ yarn hardhat  test ./test/xxxxx.test.ts --network hardhat
 
 
 
+# money-legos
+1. [studydefi/money-legos](https://github.com/studydefi/money-legos)
+2. 
+
 ## [Web3 learn](https://learnweb3.io/courses/c446d19f-a25d-42c6-b3e4-4311c5040587/lessons#)
 1 - Learn how to create Merkle Trees for large airdrops (1-2 hours)
 2 - Learn how Ethereum nodes store data and executes smart contracts (1-2 hours)

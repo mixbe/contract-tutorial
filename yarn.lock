@@ -661,6 +661,11 @@
     table "^6.8.0"
     undici "^5.14.0"
 
+"@openzeppelin/contracts@^2.5.0":
+  version "2.5.1"
+  resolved "https://registry.npmjs.org/@openzeppelin/contracts/-/contracts-2.5.1.tgz#c76e3fc57aa224da3718ec351812a4251289db31"
+  integrity sha512-qIy6tLx8rtybEsIOAlrM4J/85s2q2nPkDqj/Rx46VakBZ0LwtFhXIVub96LXHczQX0vaqmAueDqNPXtbSXSaYQ==
+
 "@openzeppelin/contracts@^4.8.1":
   version "4.8.1"
   resolved "https://registry.npmjs.org/@openzeppelin/contracts/-/contracts-4.8.1.tgz#709cfc4bbb3ca9f4460d60101f15dac6b7a2d5e4"
@@ -785,6 +790,13 @@
   integrity sha512-6dKnHZn7fg/iQATVEzqyUOyEidbn05q7YA2mQ9hC0MMXhhV3/JrsxmFSYZAcr7j1yUP700LLhTruvJ3MiQmjJg==
   dependencies:
     antlr4ts "^0.5.0-alpha.4"
+
+"@studydefi/money-legos@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.npmjs.org/@studydefi/money-legos/-/money-legos-2.4.2.tgz#90b97670d2dbcf2f71b5be951fd52aa2faa5317e"
+  integrity sha512-UFRI6dN0LPgK3l37/opK/VQTUYUYUpVTuXWLOtOtYeClT3OA4li/02oqKLjZX7l7AxxPTCIxzWlspBHLnp/FxQ==
+  dependencies:
+    "@openzeppelin/contracts" "^2.5.0"
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
