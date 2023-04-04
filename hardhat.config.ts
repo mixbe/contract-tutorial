@@ -21,13 +21,18 @@ const config: HardhatUserConfig = {
     networks: {
         hardhat: {
             allowUnlimitedContractSize: false,
-            forking: {
-                url: "https://mainnet.infura.io/v3/" + process.env.WEB3_INFURA_PROJECT_ID,
-            }
         },
         ganache: {
             url: `http://localhost:8545`
         },
+        sepolia: {
+            url: process.env.SEPOLIA_NODE_URL,
+            accounts: [`${process.env.WALLET_KEY}`]
+        },
+        goerli: {
+            url: process.env.GOERLI_NODE_URL,
+            accounts: [`${process.env.WALLET_KEY}`]
+        }
     }
 
 };

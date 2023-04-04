@@ -17,7 +17,7 @@ describe("Flash Swap Test", function () {
 
         const USDC_WHALE = await ethers.getImpersonatedSigner(USDCHolder);
         // send ETH to cover tx fee
-        await owner.sendTransaction({to: USDC_WHALE.address, value: ethers.utils.parseEther("1"), gasLimit: 30000000});
+        await owner.sendTransaction({to: USDC_WHALE.address, value: ethers.utils.parseEther("10"), gasLimit: 30000000});
 
 
         const USDCContract = await ethers.getContractAt("ERC20", USDCAddress);

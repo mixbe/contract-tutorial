@@ -7,6 +7,7 @@ async function main() {
     console.log("Deploying Box...");
     // deploy Box using upgrade.deployProxy()
     const box = await upgrades.deployProxy(Box, [42], {initializer: 'store'});
+    await box.deployed();
 
     console.log(box.address, " box(proxy) address")
     console.log(await upgrades.erc1967.getImplementationAddress(box.address), " getImplementationAddress")
